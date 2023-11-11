@@ -8,6 +8,7 @@ export default defineConfig({
   title: "Koala",
   description: "开源管理系统脚手架",
   themeConfig: {
+    darkModeSwitchLabel: "外观",
     nav: [
       { text: "快速开始", link: "/guide/getting-started.md" },
       {
@@ -123,12 +124,38 @@ export default defineConfig({
         ],
       },
     ],
-    outline: "deep",
+    sidebarMenuLabel: "菜单",
+    outline: {
+      level: "deep",
+      label: "本页目录",
+    },
+    returnToTopLabel: "返回顶部",
     socialLinks: [
       { icon: "github", link: "https://github.com/koala-projects/koala" },
     ],
     search: {
       provider: "local",
+      options: {
+        translations: {
+          button: {
+            buttonText: "搜索",
+            buttonAriaLabel: "搜索",
+          },
+          modal: {
+            displayDetails: "显示详情",
+            resetButtonTitle: "清除查询条件",
+            backButtonTitle: "返回",
+            noResultsText: "无法找到相关结果",
+            footer: {
+              selectText: "选择",
+              selectKeyAriaLabel: "选择",
+              navigateText: "导航",
+              closeText: "关闭",
+              closeKeyAriaLabel: "关闭",
+            },
+          },
+        },
+      },
     },
   },
   // ignoreDeadLinks: true,
