@@ -6,6 +6,8 @@ hero:
   name: "考拉"
   text: "开源管理系统脚手架"
   tagline: 无偿提供给开发者和良心企业, 持续增加原型与组件
+  image:
+    src: /logo.png
   actions:
     - theme: brand
       text: 快速开始→
