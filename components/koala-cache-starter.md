@@ -2,9 +2,7 @@
 
 考拉缓存启动模块, 基于 [Spring Data Redis](https://spring.io/projects/spring-data-redis) 和 [Spring Framework Cache](https://docs.spring.io/spring-framework/docs/current/reference/html/integration.html#cache), 快速集成缓存功能
 
-## 快速开始
-
-### 配置
+## 配置
 
 ```yaml
 spring:
@@ -14,7 +12,7 @@ spring:
       password: 123456
 ```
 
-### 缓存注解
+## 缓存注解
 
 ```java
 @Component
@@ -47,9 +45,7 @@ public class UserService {
 
 其余注解和注解参数请参照[官方文档](https://docs.spring.io/spring-framework/docs/current/reference/html/integration.html#cache-annotations)
 
-## 进阶
-
-### 缓存条件
+## 缓存条件
 
 模块抽象了缓存条件, 可通过实现接口`CacheCondition`自定义缓存条件:
 

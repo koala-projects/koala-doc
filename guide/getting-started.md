@@ -37,7 +37,7 @@
 
 | 原型名称                                                     | 原型说明                                     |
 | ------------------------------------------------------------ | -------------------------------------------- |
-| [koala-web-application](../../koala-archetypes/koala-web-application) | Web应用通用原型, 内置系统管理/代码生成等功能 |
+| [koala-web-application](https://github.com/koala-projects/koala/tree/main/koala-archetypes/koala-web-application) | Web应用通用原型, 内置系统管理/代码生成等功能 |
 
 3. 使用Maven命令生成项目:
 
@@ -95,31 +95,30 @@ mvn archetype:generate ^
    | 组件名称                                                     | 组件说明                                                     |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
    | [koala-admin-client-starter](/components/koala-admin-client-starter.md) | 快速集成Spring Boot Admin Client                             |
-   | [koala-admin-server-starter](../../koala-starters/koala-admin-server-starter) | 快速集成Spring Boot Admin Server, 提供高级通知方式           |
-   | [koala-attachment-starter](../../koala-starters/koala-attachment-starter) | 提供了附件上传和下载功能                                     |
-   | [koala-authorization-server-starter](../../koala-starters/koala-authorization-server-starter) | 快速集成 Spring Authorization Server, 提供 OAuth 2.1 认证授权服务 |
-   | [koala-cache-starter](../../koala-starters/koala-cache-starter) | 快速集成Redis缓存, 抽象了缓存条件配置                        |
-   | [koala-code-gen-starter](../../koala-starters/koala-code-gen-starter) | 提供了代码生成功能                                           |
-   | [koala-data-source-starter](../../koala-starters/koala-data-source-starter) | 提供了动态切换多数据源的功能                                 |
-   | [koala-database-starter](../../koala-starters/koala-database-starter) | 提供了数据库管理功能                                         |
-   | [koala-log-starter](../../koala-starters/koala-log-starter)  | 提供了操作日志功能                                           |
-   | [koala-minio-starter](../../koala-starters/koala-minio-starter) | 快速集成MinIO对象存储, 自动注入操作客户端                    |
-   | [koala-mybatis-starter](../../koala-starters/koala-mybatis-starter) | 持久化功能的 MyBatis 版本实现                                |
-   | [koala-ocr-starter](../../koala-starters/koala-ocr-starter)  | 快速集成OCR功能, 支持 图片 / PDF 内容识别                    |
-   | [koala-persist-starter](../../koala-starters/koala-persist-starter) | 定义部分持久化功能, 如模型/仓库/服务/实体监听器等            |
-   | [koala-post-office-starter](../../koala-starters/koala-post-office-starter) | 提供了 邮件 / 短信 / 企业微信 等消息发送功能                 |
-   | [koala-powerjob-worker-starter](../../koala-starters/koala-powerjob-worker-starter) | 快速集成PowerJob Worker, 拓展Groovy任务处理器                |
-   | [koala-query-starter](../../koala-starters/koala-query-starter) | 提供了自定义SQL语句查询统计数据的功能                        |
-   | [koala-resource-server-starter](../../koala-starters/koala-resource-server-starter) | 提供资源服务和接口权限功能                                   |
-   | [koala-rocketmq-starter](../../koala-starters/koala-rocketmq-starter) | 快速集成Apache RocketMQ, 提供 Spring Boot 3 适配             |
-   | [koala-sensitive-word-starter](../../koala-starters/koala-sensitive-word-starter) | 提供了敏感词过滤功能, 支持 Jackson                           |
-   | [koala-system-starter](../../koala-starters/koala-system-starter) | 提供了用户管理/角色管理/部门管理/字典管理功能                |
-   | [koala-task-starter](../../koala-starters/koala-task-starter) | 快速集成 Spring Scheduling 功能, 实现基于数据库的任务配置    |
-   | [koala-template-starter](../../koala-starters/koala-template-starter) | 提供了模板组管理/模板管理功能                                |
-   | [koala-validation-starter](../../koala-starters/koala-validation-starter) | 提供了参数校验功能, 支持提示消息自定义                       |
-   | [koala-web-starter](../../koala-starters/koala-web-starter)  | 抽象出通用返回模型, 增加全局异常拦截器                       |
-   | [koala-wechat-mini-app-starter](../../koala-starters/koala-wechat-mini-app-starter) | 快速集成微信小程序功能, 实现微信用户与系统用户绑定           |
-
+   | [koala-admin-server-starter](/components/koala-admin-server-starter) | 快速集成Spring Boot Admin Server, 提供高级通知方式           |
+   | [koala-attachment-starter](/components/koala-attachment-starter) | 提供了附件上传和下载功能                                     |
+   | [koala-authorization-server-starter](/components/koala-authorization-server-starter) | 快速集成 Spring Authorization Server, 提供 OAuth 2.1 认证授权服务 |
+   | [koala-cache-starter](/components/koala-cache-starter)       | 快速集成Redis缓存, 抽象了缓存条件配置                        |
+   | [koala-code-gen-starter](/components/koala-code-gen-starter) | 提供了代码生成功能                                           |
+   | [koala-data-source-starter](/components/koala-data-source-starter) | 提供了动态切换多数据源的功能                                 |
+   | [koala-database-starter](/components/koala-database-starter) | 提供了数据库管理功能                                         |
+   | [koala-log-starter](/components/koala-log-starter)           | 提供了操作日志功能                                           |
+   | [koala-minio-starter](/components/koala-minio-starter)       | 快速集成MinIO对象存储, 自动注入操作客户端                    |
+   | [koala-mybatis-starter](/components/koala-mybatis-starter)   | 持久化功能的 MyBatis 版本实现                                |
+   | [koala-persist-starter](/components/koala-persist-starter)   | 定义部分持久化功能, 如模型/仓库/服务/实体监听器等            |
+   | [koala-post-office-starter](/components/koala-post-office-starter) | 提供了 邮件 / 短信 / 企业微信 等消息发送功能                 |
+   | [koala-powerjob-worker-starter](/components/koala-powerjob-worker-starter) | 快速集成PowerJob Worker, 拓展Groovy任务处理器                |
+   | [koala-query-starter](/components/koala-query-starter)       | 提供了自定义SQL语句查询统计数据的功能                        |
+   | [koala-resource-server-starter](/components/koala-resource-server-starter) | 提供资源服务和接口权限功能                                   |
+   | [koala-rocketmq-starter](/components/koala-rocketmq-starter) | 快速集成Apache RocketMQ, 提供 Spring Boot 3 适配             |
+   | [koala-sensitive-word-starter](/components/koala-sensitive-word-starter) | 提供了敏感词过滤功能, 支持 Jackson                           |
+   | [koala-system-starter](/components/koala-system-starter)     | 提供了用户管理/角色管理/部门管理/字典管理功能                |
+   | [koala-task-starter](/components/koala-task-starter)         | 快速集成 Spring Scheduling 功能, 实现基于数据库的任务配置    |
+   | [koala-template-starter](/components/koala-template-starter) | 提供了模板组管理/模板管理功能                                |
+   | [koala-validation-starter](/components/koala-validation-starter) | 提供了参数校验功能, 支持提示消息自定义                       |
+   | [koala-web-starter](/components/koala-web-starter)           | 抽象出通用返回模型, 增加全局异常拦截器                       |
+   | [koala-wechat-mini-app-starter](/components/koala-wechat-mini-app-starter) | 快速集成微信小程序功能, 实现微信用户与系统用户绑定           |
+   
 3. 引入组件依赖, 以系统管理为例, 修改`pom.xml`:
 
 ```xml
@@ -155,7 +154,7 @@ mvn archetype:generate ^
 </dependency>
 ```
 
-3. 在[数据库脚本目录](../../db/migration)下选择项目数据库类型的数据库脚本, 移入项目目录 `resources/db/migration` :
+3. 在[数据库脚本目录](https://github.com/koala-projects/koala/tree/main/db/migration)下选择项目数据库类型的数据库脚本, 移入项目目录 `resources/db/migration` :
 
 ```
 db

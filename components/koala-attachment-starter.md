@@ -2,13 +2,11 @@
 
 考拉附件启动模块, 实现附件上传和下载功能
 
-## 快速开始
-
-### 数据库
+## 初始化
 
 请先参照[快速开始](/guide/getting-started.md#初始化数据库)初始化数据库
 
-### 配置
+## 配置
 
 本地文件存储:
 
@@ -31,7 +29,7 @@ koala:
     secret-key: minioadmin
 ```
 
-### 上传文件
+## 上传文件
 
 ```http
 POST http://127.0.0.1:9000/api/attachments/upload
@@ -39,15 +37,13 @@ Content-Type: multipart/form-data
 attachment=头像.png
 ```
 
-### 下载文件
+## 下载文件
 
 ```http
 GET http://127.0.0.1:9000/api/attachments/1/download
 ```
 
-## 进阶
-
-### 自定义附件存储
+## 自定义附件存储
 
 模块将附件存储抽象出来, 与持久化逻辑进行拆分
 

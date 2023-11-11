@@ -51,6 +51,74 @@ export default defineConfig({
             text: "数据库管理",
             link: "/components/koala-database-starter.md",
           },
+          {
+            text: "多数据源",
+            link: "/components/koala-data-source-starter.md",
+          },
+          {
+            text: "系统日志",
+            link: "/components/koala-log-starter.md",
+          },
+          {
+            text: "MinIO",
+            link: "/components/koala-minio-starter.md",
+          },
+          {
+            text: "MyBatis",
+            link: "/components/koala-mybatis-starter.md",
+          },
+          {
+            text: "持久化",
+            link: "/components/koala-persist-starter.md",
+          },
+          {
+            text: "消息推送",
+            link: "/components/koala-post-office-starter.md",
+          },
+          {
+            text: "PowerJob Worker",
+            link: "/components/koala-powerjob-worker-starter.md",
+          },
+          {
+            text: "自定义查询",
+            link: "/components/koala-query-starter.md",
+          },
+          {
+            text: "资源服务",
+            link: "/components/koala-resource-server-starter.md",
+          },
+          {
+            text: "RocketMQ",
+            link: "/components/koala-rocketmq-starter.md",
+          },
+          {
+            text: "敏感词过滤",
+            link: "/components/koala-sensitive-word-starter.md",
+          },
+          {
+            text: "系统管理",
+            link: "/components/koala-system-starter.md",
+          },
+          {
+            text: "定时任务",
+            link: "/components/koala-task-starter.md",
+          },
+          {
+            text: "模板管理",
+            link: "/components/koala-template-starter.md",
+          },
+          {
+            text: "数据校验",
+            link: "/components/koala-validation-starter.md",
+          },
+          {
+            text: "Web",
+            link: "/components/koala-web-starter.md",
+          },
+          {
+            text: "微信小程序",
+            link: "/components/koala-wechat-mini-app-starter.md",
+          },
         ],
       },
     ],
@@ -58,5 +126,5 @@ export default defineConfig({
       { icon: "github", link: "https://github.com/vuejs/vitepress" },
     ],
   },
-  ignoreDeadLinks: true,
+  // ignoreDeadLinks: true,
 });
