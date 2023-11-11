@@ -2,6 +2,7 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  base: "/koala-doc/",
   lang: "zh-CN",
   title: "Koala",
   description: "开源管理系统脚手架",
