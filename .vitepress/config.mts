@@ -2,33 +2,55 @@ import { defineConfig } from "vitepress";
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
+  lang: "zh-CN",
   title: "Koala",
   description: "开源管理系统脚手架",
-  locales: {
-    root: {
-      label: "简体中文",
-      lang: "zh-CN",
-      themeConfig: {
-        nav: [
-          { text: "快速开始", link: "/guide/getting-started.md" },
-          { text: "组件列表", link: "/components" },
-        ],
-
-        sidebar: [
+  themeConfig: {
+    nav: [
+      { text: "快速开始", link: "/guide/getting-started.md" },
+      {
+        text: "组件列表",
+        link: "/components/koala-admin-client-starter.md",
+      },
+    ],
+    sidebar: [
+      {
+        text: "快速开始",
+        link: "/guide/getting-started.md",
+      },
+      {
+        text: "组件列表",
+        collapsed: false,
+        items: [
           {
-            text: "快速开始",
-            link: "/guide/getting-started.md",
+            text: "监控客户端",
+            link: "/components/koala-admin-client-starter.md",
           },
           {
-            text: "组件列表",
-            link: "/components",
+            text: "监控服务端",
+            link: "/components/koala-admin-server-starter.md",
           },
-        ],
-
-        socialLinks: [
-          { icon: "github", link: "https://github.com/vuejs/vitepress" },
+          {
+            text: "附件管理",
+            link: "/components/koala-attachment-starter.md",
+          },
+          {
+            text: "认证授权服务",
+            link: "/components/koala-authorization-server-starter.md",
+          },
+          {
+            text: "缓存服务",
+            link: "/components/koala-cache-starter.md",
+          },
+          {
+            text: "代码生成",
+            link: "/components/koala-code-gen-starter.md",
+          },
         ],
       },
-    },
+    ],
+    socialLinks: [
+      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+    ],
   },
 });

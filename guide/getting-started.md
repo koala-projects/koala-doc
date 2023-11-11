@@ -94,7 +94,7 @@ mvn archetype:generate ^
 
    | 组件名称                                                     | 组件说明                                                     |
    | ------------------------------------------------------------ | ------------------------------------------------------------ |
-   | [koala-admin-client-starter](../../koala-starters/koala-admin-client-starter) | 快速集成Spring Boot Admin Client                             |
+   | [koala-admin-client-starter](/components/koala-admin-client-starter.md) | 快速集成Spring Boot Admin Client                             |
    | [koala-admin-server-starter](../../koala-starters/koala-admin-server-starter) | 快速集成Spring Boot Admin Server, 提供高级通知方式           |
    | [koala-attachment-starter](../../koala-starters/koala-attachment-starter) | 提供了附件上传和下载功能                                     |
    | [koala-authorization-server-starter](../../koala-starters/koala-authorization-server-starter) | 快速集成 Spring Authorization Server, 提供 OAuth 2.1 认证授权服务 |
