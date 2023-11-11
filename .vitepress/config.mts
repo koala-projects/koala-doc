@@ -47,6 +47,10 @@ export default defineConfig({
             text: "代码生成",
             link: "/components/koala-code-gen-starter.md",
           },
+          {
+            text: "数据库管理",
+            link: "/components/koala-database-starter.md",
+          },
         ],
       },
     ],
