@@ -3,6 +3,7 @@ import { defineConfig } from "vitepress";
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   base: "/koala-doc/",
+  srcDir: "src",
   lang: "zh-CN",
   title: "Koala",
   description: "开源管理系统脚手架",
@@ -122,9 +123,13 @@ export default defineConfig({
         ],
       },
     ],
+    outline: "deep",
     socialLinks: [
-      { icon: "github", link: "https://github.com/vuejs/vitepress" },
+      { icon: "github", link: "https://github.com/koala-projects/koala" },
     ],
+    search: {
+      provider: "local",
+    },
   },
   // ignoreDeadLinks: true,
 });

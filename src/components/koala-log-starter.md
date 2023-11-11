@@ -2,11 +2,13 @@
 
 考拉操作日志启动模块
 
-## 初始化
+## 快速开始
+
+### 初始化
 
 请先参照[快速开始](/guide/getting-started.md#初始化数据库)初始化数据库
 
-## 日志注解
+### 日志注解
 
 模块提供了`@Log`注解用于记录操作日志, 注解需要标注在**接口实现类**上:
 
@@ -38,7 +40,9 @@ public class DepartmentApiImpl implements DepartmentApi {
 
 需要将 SpEL 包裹在`${}`中, 模块会自动解析其中的内容, SpEL 书写方式请参照[官方文档](https://docs.spring.io/spring-framework/docs/current/reference/html/core.html#expressions)
 
-## 高级配置
+## 进阶
+
+### 高级配置
 
 ```yaml
 koala:

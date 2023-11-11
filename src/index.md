@@ -10,7 +10,7 @@ hero:
     src: /logo.png
   actions:
     - theme: brand
-      text: 快速开始→
+      text: 快速开始
       link: guide/getting-started.md
     - theme: alt
       text: 在线预览

@@ -2,7 +2,9 @@
 
 考拉Spring Boot Admin Server启动模块, 提供高级通知服务
 
-## 配置
+## 快速开始
+
+### 配置
 
 ```yaml
 spring:
@@ -15,7 +17,7 @@ spring:
 
 Spring Boot Admin Server 相关配置参照[官方文档](https://docs.spring-boot-admin.com/current/getting-started.html)即可
 
-## 接口文档
+### 接口文档
 
 实现了应用管理/运维工程师管理/运维关系管理/通知策略管理接口, 可通过访问接口文档查看具体信息
 
@@ -71,7 +73,9 @@ koala:
           email: 'koala_projects@yeah.net'
 ```
 
-## 自定义通知策略
+## 进阶
+
+### 自定义通知策略
 
 若企业微信或邮箱不满足您的需求, 可通过实现接口`NotifyStrategy`进行自定义:
 
