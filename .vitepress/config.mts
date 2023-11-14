@@ -42,6 +42,10 @@ export default defineConfig({
             link: "/components/koala-authorization-server-starter.md",
           },
           {
+            text: "启动服务",
+            link: "/components/koala-boot-starter.md",
+          },
+          {
             text: "缓存服务",
             link: "/components/koala-cache-starter.md",
           },

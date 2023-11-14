@@ -98,6 +98,7 @@ mvn archetype:generate ^
    | [koala-admin-server-starter](/components/koala-admin-server-starter) | 快速集成Spring Boot Admin Server, 提供高级通知方式           |
    | [koala-attachment-starter](/components/koala-attachment-starter) | 提供了附件上传和下载功能                                     |
    | [koala-authorization-server-starter](/components/koala-authorization-server-starter) | 快速集成 Spring Authorization Server, 提供 OAuth 2.1 认证授权服务 |
+   | [koala-boot-starter](/components/koala-boot-starter)         | 提供了 `ApplicationRunner` 拓展功能                          |
    | [koala-cache-starter](/components/koala-cache-starter)       | 快速集成Redis缓存, 抽象了缓存条件配置                        |
    | [koala-code-gen-starter](/components/koala-code-gen-starter) | 提供了代码生成功能                                           |
    | [koala-data-source-starter](/components/koala-data-source-starter) | 提供了动态切换多数据源的功能                                 |
