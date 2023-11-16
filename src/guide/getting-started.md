@@ -45,7 +45,7 @@
 mvn archetype:generate ^
  -DarchetypeGroupId=cn.koala ^
  -DarchetypeArtifactId=koala-web-application ^
- -DarchetypeVersion=2023.1.0-SNAPSHOT -X ^
+ -DarchetypeVersion=2023.1.4 -X ^
  -DgroupId=cn.houtaroy ^
  -DartifactId=test ^
  -Dversion=2023.0.0-SNAPSHOT ^
@@ -56,7 +56,7 @@ mvn archetype:generate ^
 | --------------------- | -------------- | ---------------------- |
 | -DarchetypeGroupId    | 原型groupId    | cn.koala               |
 | -DarchetypeArtifactId | 原型artifactId | koala-web-application  |
-| -DarchetypeVersion    | 原型版本       | 2023.1.0-SNAPSHOT      |
+| -DarchetypeVersion    | 原型版本       | 2023.1.4      |
 | -DgroupId             | 项目groupId    | cn.houtaroy            |
 | -DartifactId          | 项目artifactId | test                   |
 | -Dversion             | 项目版本       | 2023.0.0-SNAPSHOT      |
@@ -72,8 +72,8 @@ mvn archetype:generate ^
   <repository>
     <id>koala</id>
     <name>koala</name>
-      <url>https://raw.github.com/koala-projects/maven-repositories/snapshot/</url>
-      <!--<url>https://gitee.com/koala-projects/maven-repositories/raw/snapshot/</url>-->
+      <url>https://raw.github.com/koala-projects/maven-repository/main/releases/</url>
+      <!--<url>https://gitee.com/koala-projects/maven-repository/raw/main/releases/</url>-->
   </repository>
 </repositories>
 
@@ -82,7 +82,7 @@ mvn archetype:generate ^
     <dependency>
       <groupId>cn.koala</groupId>
       <artifactId>koala-dependencies</artifactId>
-      <version>2023.0.1-SNAPSHOT</version>
+      <version>2023.1.4</version>
       <type>pom</type>
       <scope>import</scope>
     </dependency>
