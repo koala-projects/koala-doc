@@ -15,6 +15,10 @@ export default defineConfig({
         text: "组件列表",
         link: "/components/koala-admin-client-starter.md",
       },
+      {
+        text: "2023.1.4",
+        link: "https://github.com/koala-projects/koala/tree/2023.1.x",
+      },
     ],
     sidebar: [
       {
@@ -135,7 +139,10 @@ export default defineConfig({
     },
     returnToTopLabel: "返回顶部",
     socialLinks: [
-      { icon: "github", link: "https://github.com/koala-projects/koala" },
+      {
+        icon: "github",
+        link: "https://github.com/koala-projects/koala/tree/2023.1.x",
+      },
     ],
     search: {
       provider: "local",
